@@ -11,8 +11,12 @@ posts
 {% endblock title %}
 
 {% block content %}
-{% for obj in qs %}
-{{obj.title}} - {{obj.body}} <br>
-{% endfor %}
-<div class="hello-world">Hello world</div>
+<p class="test"><b>test</b></p> 
+
+<div id="posts"></div>
+<div id="spinner-box" class='text-center'>
+    <div class="spinner-border" role="status">
+    </div>
+</div>
+
 {% endblock content %}
